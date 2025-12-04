@@ -1,0 +1,471 @@
+body {
+    padding: 0 10vh;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px #EFEEF3 solid;
+    padding: 2vh 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    flex-wrap: wrap;
+}
+.header-nav a, .header-nav ul {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    padding: 0;
+    gap: 61px;
+    flex-wrap: wrap;
+    font-size: 16px;
+    color: #16133D;
+}
+
+.header-button {
+    display: flex;
+    gap: 18px;
+}
+
+.header-button button {
+    padding: 15px 35px;
+    border: 2px #16133D solid;
+    border-radius: 8px;
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #16133D;
+    transition: all 0.4s ease;
+}
+
+.header-button button:hover {
+    background-color: #16133D;
+    color: white;
+    cursor: pointer;
+}
+
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 54px;
+    margin-bottom: 120px;
+}
+
+.main-info {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+}
+
+.info-img {
+    width: 45%;
+    height: 416px;
+    background: url("../img/Rectangle.jpg") center/contain no-repeat;
+    background-size: 576px 416px;       /* растянет на весь блок, но может искажать пропорции */
+}
+
+.main-info h1 {
+    font-size: 56px;
+    font-weight: 600;
+    color: #16133D;
+    font-family: 'Google Sans Flex', sans-serif;
+    margin: 0 0;
+}
+
+.main-info p {
+    font-size: 18px;
+    color: #183B56;
+    margin-top: 24px;
+    margin-bottom: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.info-button {
+    display: flex;
+    gap: 16px;
+    margin-top: 31px;
+}
+
+.info-button button {
+    border: 2px #007FFC solid;
+    border-radius: 8px;
+    color: #007FFC;
+    gap: 20px;
+    background-color: white;
+    padding: 14px 40px;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+}
+
+.info-button button:hover {
+    background-color: #007FFC;
+    color: white;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.services {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #16133D;
+}
+.services-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 39px;
+    margin-bottom: 200px;
+}
+
+.cards {
+    border: 1px #E0E0E0 solid;
+    border-radius: 8px;
+    width: 33%;
+    padding: 40px 32px;
+}
+
+.cards img {
+    border: 1px #1565D81A solid;
+    border-radius: 16px;
+    background-color: white;
+    padding: 10px;
+}
+
+.cards h3 {
+    font-size: 24px;
+    margin-top: 28px;
+}
+
+.cards p {
+    width: 70%;
+    font-size: 16px;
+}
+
+.cards a {
+    text-decoration: none;
+    margin-top: 29px;
+    color: #16133D;
+}
+
+.cards a:hover {
+    color: #007FFC;
+    transition: all 0.4s ease;
+}
+
+.services > p:first-child {
+    font-size: 16px;
+    color: #7690A8;
+    margin-bottom: 0px;
+}
+.services > h2 {
+    font-size: 40px;
+    margin-top: 17px;
+    margin-bottom: 6px;
+    color: #16133D;
+    font-weight: 600;
+}
+
+.services > p{
+    font-size: 18px;
+    color: #16133D;
+    margin-top: 0px;
+    margin-bottom: 61px;
+}
+
+
+.p-f {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #7690A8;
+    font-size: 16px;
+    margin-top: 0px;
+}
+
+.p-l {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #7690A8;
+    font-size: 18px;
+    margin-bottom: 85px;
+}
+
+.features > h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    color: #16133D;
+    font-size: 40px;
+    margin-top: 17px;
+    margin-bottom: 7px;
+}
+
+.features-cards {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 49px;
+    margin-bottom: 200px;
+}
+
+.link {
+    width: 553px;
+    height: 483px;
+    text-decoration: none;
+    display: flex;
+    align-items: flex-end;
+}
+
+.link:first-child {
+    background: url(../img/features.jpg) center/contain no-repeat;
+    background-size: 553px 483px;
+}
+.link:last-child {
+    background: url(../img/features2.jpg) center/contain no-repeat;
+    background-size: 553px 483px;
+}
+
+span { 
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    color: white;
+    padding: 64px 48px;
+}
+
+.plans {
+    font-family: 'Google Sans Flex', sans-serif;
+}
+
+.plans > h2 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #16133D;
+    margin-bottom: 10px;
+}
+
+.plans p {
+    font-size: 18px;
+    color: #5A7184;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 84px;
+}
+
+.plans-cards {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 60px 20px 100px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.card {
+    flex: 1 1 320px;
+    max-width: 400px;
+    background: #fff;
+    border-radius: 16px;
+    padding: 56px 40px 60px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.07);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: translateY(-12px);
+    box-shadow: 0 40px 90px rgba(0,0,0,0.12);
+}
+
+.card:first-child  { border-top: 6px solid #007FFC; }
+.card:nth-child(2) { border-top: 6px solid #52C29D; }
+.card:last-child   { border-top: 6px solid #FF6B6B; }
+
+.card h3 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #111;
+    margin: 0 0 32px 0;
+}
+
+.strong,
+.strong-sec,
+.strong-last {
+    font-size: 60px;
+    font-weight: 800;
+    margin: 0;
+    line-height: 1;
+}
+
+.strong      { color: #007FFC; }
+.strong-sec  { color: #52C29D; }
+.strong-last { color: #FF6B6B; }
+
+.card p:nth-of-type(2) {
+    margin: 10px 0 48px;
+    font-size: 18px;
+    color: #8898aa;
+    font-weight: 500;
+}
+
+.card p:nth-of-type(3) {
+    color: #556;
+    line-height: 1.7;
+    margin-bottom: 48px;
+    flex-grow: 1;
+}
+
+.card a {
+    display: block;
+    width: fit-content;
+    min-width: 220px;
+    padding: 18px 48px;
+    background: #16133D;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: all 0.35s ease;
+    margin-top: auto;
+    box-shadow: 0 10px 30px rgba(22,19,61,0.25);
+}
+
+.card a:hover {
+    background: #0e0c2e;
+    transform: translateY(-3px);
+    box-shadow: 0 20px 40px rgba(22,19,61,0.35);
+}
+
+.end {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 380px;                   
+    background-image: url("../img/back.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;   
+    background-size: cover;               
+    padding: 60px 20px;
+    margin-bottom: 100px;
+    border-radius: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.end h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: white;
+    margin: 0 0 19px 0;
+}
+
+.end p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.6);
+    margin: 0;
+    margin-bottom: 48px;
+}
+
+.end a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 50px;
+    padding: 15px 40px;
+    margin-right: 21px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.end a:hover {
+    background-color: white;
+    color: #16133D;
+    transition: all 0.4s ease;
+}
+
+footer {
+    background-color: #16133D;
+    color: white;
+    font-family: 'Roboto';
+    padding-bottom: 70px;
+    width: 99.41vw;
+    margin-left: calc(-11vh);        /* компенсируем левый padding body */
+    margin-right: calc(-10vh);
+}
+.footer {
+    display: flex;
+    padding-top: 80px;
+}
+
+.links-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 0px 80px 0px 159px;
+    width: 400px;
+}
+
+.icons {
+    display: flex;
+    gap: 16px;                    /* расстояние между иконками */
+    align-items: stretch;         /* ← вот это и есть твой «stretch», чтобы всё ровно */
+    flex-wrap: wrap;
+    padding: 10px 0;
+}
+
+.icons a {
+    display: flex;
+    align-items: center;          
+    justify-content: center;      
+    width: 38px;                  
+    height: 38px;
+    background: white;
+    border-radius: 10px;          
+    flex-shrink: 0;               
+}
+
+.icons img {
+    width: 20px;                  
+    height: 20px;
+    object-fit: contain;          
+}
+
+.inf-footer {
+    display: flex;
+    gap: 200px;
+    flex-shrink: 0;
+}
+
+.inf-footer h3, a, p{
+    color: white;
+    text-decoration: none;
+    align-items: flex-start;
+    
+}
+
+.serv {
+    display: flex;
+    flex-direction: column;     /* текст один под другим */                 /* точное расстояние между строками! */
+    align-items: start;        /* или flex-start, если слева */
+    text-align: start;
+    line-height: 0.7;
+}
+
+.copy {
+    display: flex;
+    justify-content: center;
+}
